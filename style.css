@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif ;
+}
+
+
+                        /* HEADER  */
+
+header {
+    background-color: #1F2937;
+}
+.container{
+    padding: 10px 15% 10%;
+}
+.header-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6%;
+}
+
+.rightHeader {
+    display: flex;
+}
+
+.headerMiddle {
+    display: flex;
+    justify-content: space-between;
+}
+.headerMiddleLeft {
+    display: flex;
+    max-width: 550px;
+    align-items: center;
+}
+
+
+#logo {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+#headerLinks {
+    text-decoration: none;
+    color: grey;
+    margin-left: 20px;
+}
+#imgCaption {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#imgSmaller {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px 0;
+} 
+#headerImage {
+    background-color: grey;
+    padding: 100px 350px;
+}
+#signupBtn {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 6px;
+    border: none;
+    margin: 5px 0 0 2px;
+    cursor: pointer;
+}
+                /* MAIN SECTION   */ 
+#mainInfo {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 8rem;
+}
+.mainContainer img {
+    border: 3px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.under {
+    width: 200px;
+    display: flex;
+    flex-direction:column;
+    word-wrap: break-word;
+    text-align: center;
+}
+.under legend {
+    margin-top: 10px;
+}
+                    /* QUOTSECTION  */
+
+ .sectionQuote {
+    background-color: #E5E7EB;
+    padding: 8% 30%;
+ }
+
+ .sectionQuote legend {
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: right;
+    margin-top: 5px;
+ }
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 200;
+}
+
+                /* BLUEBOX SECTION */
+
+.bluebox {
+    display: flex;   
+    justify-content: space-between;
+    border-radius: 6px;
+    margin-top: 4%;
+    margin-bottom : 4%;
+    padding: 2%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3882F6;
+    align-items: center;
+}
+.bluebox p {
+    font-weight: bold;
+    font-size: 20px;
+    color: #F9FAF8;
+}
+
+.bluebox legend {
+    margin-top: 0.1rem;
+    color: rgba(229, 231, 239, 0.8);
+}
+
+#blueboxBtn {
+    padding: 0.2rem 2rem;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+                /* FOOTER */
+
+.footerTM p {
+    color: rgba(229, 231, 239, 0.8);
+    text-align: center;
+    background-color: #1F2937;
+    padding: 3rem;
+}

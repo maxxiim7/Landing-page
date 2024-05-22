@@ -1,1 +1,1 @@
-# Landing-page
+I will build a simple Landing page using HTML and CSS later on i might add functionalty using JSS.
